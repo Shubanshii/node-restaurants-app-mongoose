@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: LIjCjkBvyd2GSsf9mElSjc/TUeCP1jfaAqI1L0hgTw7FNL85d5XwgBueYhUnzvxEiAfNOOLUDuOc3rYbNNjeIv/dXOlEE3hAatwgZFBAOVL0+s4nw6axQec9pwcCsWwekVXdDEc/+T0/1b7lGgpOt2gc5VtSPLJ64B/gHBXtxOFzW9VBK6cNwC4w5glUCQfCvoK31HgE1+3kbcYa+UHLWadVqTJdzO8dWlruYxWiBmyc/DtRMWO0t9cUa+V8tHNO98lsc06hQskDNNsvDs4gmUD32z9qayeZFyvkm2dBG+oU2NGFICkn7u75NUWpibA8mUBmwKJ+UCS+rpy3HA+pcMNcJwdIJvtYCmiVYbEJNpWY9PkAeYhDeNMxRPC2268v/nAbkH6jeNgQ48qEC36ekk4EOmzit9RMJEiSU70DzVv/vw5KdYXt3Y0bxVWTnusVUAAQzdlb4TvfgwAA0KWN87LR4ZRTfgAcMa1ZzaSprZWF/0zEboSeoPlcqwuBYi5wBtm4CYBOi3VnxqeilgdTtRQ07uz6c6jQOxAJdDRbFNesYwRzr2E/m4jef+65ZmQI3k6JGpXpMvesjh6dYgOb9EMTmj/00wUr6cv9J3bcfmBLd+Z+5fsvaEaX7AQccaTpCQWMGHpH25Sx0ra05VOdV1shok5SGdtI2m9JdCMrEpY=
+  app: mysterious-cove-50125
+  on:
+    repo: Shubanshii/node-restaurants-app-mongoose
